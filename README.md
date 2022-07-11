@@ -1,7 +1,5 @@
-## curso-platzi-react-avanzado ⚛️
+## Petgram app ⚛️
 
-**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev
+**App where you can find any kind of pet photos** 
 
-**¡Sígueme en Twitch para streams sobre desarrollo web!** 👉 https://www.twitch.tv/midudev
-
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+**Log in to start using it. You can filter and like but at the moment you can't add photos** 
