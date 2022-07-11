@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="/bundle.js"></script><meta name="theme-color" content="#8d00ff" /><link rel="manifest" href="/manifest.2aa93b7039e1c9710f07adde27d009bf.json" crossorigin="use-credentials" /></head>
+<body>
+    <section class="App" id="App">
+        
+    </section>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', ()=> {
+                navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('sw registered')
+                })
+                .catch(error => {
+                    console.log('not registered', error)
+                })
+            })
+        }
+    </script>
+</body>
+</html>
